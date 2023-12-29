@@ -23,7 +23,7 @@
     ls
     ```
 - To move to DevSecOps-NetflixProject folder
-      ```bash
+    ```bash
     cd DevSecOps-NetflixProject
     ```
 - To check the list of files and folders
