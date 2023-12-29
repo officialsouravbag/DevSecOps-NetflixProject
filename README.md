@@ -42,17 +42,25 @@
     newgrp docker
     sudo chmod 777 /var/run/docker.sock
     ```
-- To check the Docker version
+- To check the docker version
     ```bash
     docker version
     ```
-- Build and run your application using Docker containers:
+- Build your application using Docker containers:
     
     ```bash
     docker build -t netflix .
-    docker run -d --name netflix -p 8081:80 netflix:latest
-    
+    ```
+- To check Docker containers:
+    ```bash
+    docker images
+    ``` 
+- Run your application using Docker containers:    
+    ```bash
+    docker run -d --name netflix -p 8081:80 netflix:latest #netflix:latest will be your docker image id
+    ```
     #to delete
+    ```bash
     docker stop <containerid>
     docker rmi -f netflix
     ```
