@@ -6,6 +6,9 @@
 
 - Provision an EC2 instance on AWS with Ubuntu 22.04.
 - Connect to the instance using SSH.
+    ```bash
+    sudo apt update -y
+    ```
 
 **Step 2: Clone the Code:**
 
