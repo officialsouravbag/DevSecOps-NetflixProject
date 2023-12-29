@@ -18,8 +18,18 @@
     ```bash
     git clone https://github.com/officialsouravbag/DevSecOps-NetflixProject.git
     ```
-    
-
+- To check the list
+    ```bash
+    ls
+    ```
+- To move to DevSecOps-NetflixProject folder
+      ```bash
+    cd DevSecOps-NetflixProject
+    ```
+- To check the list of files and folders
+    ```bash
+    ls
+    ```
 **Step 3: Install Docker and Run the App Using a Container:**
 
 - Set up Docker on the EC2 instance:
