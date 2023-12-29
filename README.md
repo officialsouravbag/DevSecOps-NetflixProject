@@ -42,7 +42,10 @@
     newgrp docker
     sudo chmod 777 /var/run/docker.sock
     ```
-    
+To check the Docker version
+    ```bash
+    docker version
+    ```
 - Build and run your application using Docker containers:
     
     ```bash
