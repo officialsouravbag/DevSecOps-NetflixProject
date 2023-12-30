@@ -51,7 +51,7 @@
     ```bash
     docker build -t netflix .
     ```
-- To check Docker containers:
+- To check Docker images:
     ```bash
     docker images
     ``` 
@@ -59,11 +59,10 @@
     ```bash
     docker run -d --name netflix -p 8081:80 netflix:latest #netflix:latest will be your docker image id
     ```
-    #to delete
+- To check Docker Container:
     ```bash
-    docker stop <containerid>
-    docker rmi -f netflix
-    ```
+    docker ps -a
+    ``` 
 
 It will show an error cause you need API key
 
